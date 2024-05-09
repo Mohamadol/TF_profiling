@@ -1,0 +1,12 @@
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 6s/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 6s/step
+Filename: /home/parinazzhandy/TF_profiling/resnet50.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    70    409.4 MiB    409.4 MiB           1   @profile
+    71                                         def inference_profiled(batch_size=1, total_batches=1):
+    72    614.6 MiB    205.1 MiB           1       _inference(batch_size, total_batches)
+
+
+
+Latency: 11.446265459060669 S
